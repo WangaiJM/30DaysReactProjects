@@ -1,0 +1,28 @@
+.title {
+  text-align: center;
+  margin: 2rem 0;
+  text-transform: uppercase;
+}
+.sub-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+p {
+  line-height: 1.7;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-around;
+}
+footer input {
+  outline: 0;
+  border: 0;
+  border-bottom: 1px dotted black;
+  padding: 1rem 2rem;
+}

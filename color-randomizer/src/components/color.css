@@ -1,0 +1,38 @@
+.container {
+  width: 80%;
+  margin: 5em auto;
+}
+.container h1 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.changers {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+}
+.btn {
+  background-color: black;
+  color: white;
+  padding: 1.2em 3.6em;
+  cursor: pointer;
+  border-radius: 0.8em;
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.25);
+}
+.btn-success {
+  background-color: green;
+}
+
+.btn-warning {
+  background-color: rgb(140, 150, 1);
+}
+
+.btn-danger {
+  background-color: rgb(228, 4, 4);
+}
+
+.btn-primary {
+  background-color: rgb(0, 30, 128);
+}

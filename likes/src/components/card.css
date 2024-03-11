@@ -1,0 +1,54 @@
+.main {
+  padding: 2em 0;
+}
+img,
+svg {
+  max-width: 100%;
+  object-fit: contain;
+}
+.title {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 1em;
+}
+.subtitle {
+  text-align: center;
+}
+.card {
+  width: 450px;
+  margin: 3em auto;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+.card-header {
+  border-radius: 1rem 1rem 0 0;
+  background-color: #000000;
+  color: #fff;
+  padding: 1.2em;
+  display: flex;
+  align-items: center;
+}
+.card-header span {
+  font-size: 2rem;
+  margin-right: 0.2em;
+}
+.card-body {
+  overflow: hidden;
+}
+.card-body img {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+.card-footer {
+  border-radius: 0 0 1rem 1rem;
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-size: 2.4em;
+}
+.active {
+  color: red;
+}

@@ -1,0 +1,26 @@
+.card {
+  padding: 2rem;
+  border: 1px solid #ececec;
+  width: 50%;
+  margin: 0 auto;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
+.card.success {
+  background-color: aquamarine;
+}
+
+.card.danger {
+  background-color: orangered;
+}
+
+.card.warning {
+  background-color: orange;
+}
+.card.active {
+  display: flex;
+}

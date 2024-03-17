@@ -1,0 +1,12 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 2em auto;
+  width: 80%;
+  padding: 2em;
+}

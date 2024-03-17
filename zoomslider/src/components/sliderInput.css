@@ -1,0 +1,13 @@
+#slider {
+  appearance: none;
+  height: 2em;
+  border-radius: 1em;
+  background-color: #dfd5d5;
+  color: blue;
+  width: 100%;
+  margin: 5em 0;
+  cursor: pointer;
+}
+#slider {
+  color: red;
+}

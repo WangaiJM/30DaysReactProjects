@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+.container {
+  background: linear-gradient(0deg, rgb(66, 40, 40), rgb(112, 34, 6));
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input.active {
+  padding: 1rem;
+  outline: 0;
+  border: none;
+  align-self: start;
+  margin-top: 5em;
+  width: 30%;
+  border-radius: 1em;
+  opacity: 1;
+  transition: all 500ms ease-in-out;
+  transform: translateY(0);
+}
+.btn {
+  position: absolute;
+  top: 2em;
+  right: 4rem;
+  font-size: 2.4em;
+  cursor: pointer;
+  color: white;
+}
+.input {
+  opacity: 0;
+  transform: translateY(-50%);
+}

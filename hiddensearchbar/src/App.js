@@ -1,7 +1,12 @@
 import "./App.css";
+import HiddenSearch from "./components/HiddenSearch";
 
 function App() {
-  return <div className="App">Hidden</div>;
+  return (
+    <div className="App">
+      <HiddenSearch />
+    </div>
+  );
 }
 
 export default App;
